@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void Login(View view){
-        DbHelper db = new DbHelper();
+        /*DbHelper db = new DbHelper();
         SQLiteDatabase escreve;
         SQLiteDatabase le;
         escreve = db.getWritableDatabase();
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             }
-        }
+        }*/
         //Toast.makeText(getApplicationContext(), "LOGIN NÃO REALIZADO, TROCANDO DE TELA PARA TESTES", Toast.LENGTH_LONG);
         Intent intent = new Intent(getApplicationContext(), ToDoList.class);
         startActivity(intent);
